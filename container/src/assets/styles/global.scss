@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "SF PRO";
+    src: url("../fonts/SF-Pro-Text-Regular.otf");
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+label {
+  font-family: "SF PRO" !important;
+  color: #2E3133;
+  line-height: normal
+}
+  
+.MuiDrawer-root{
+  & .MuiListItem-root:hover{
+    background: #e1e8f0;
+  }
+}
+
+.activeLink{
+  background-color:#e1e8f0;
+  border-left: 6px solid #012954 !important;
+}
+
+
+.MuiDataGrid-columnHeader{
+  width: 800px;
+  background-color: #e8f4f8;
+}
+.MuiDataGrid-cell,.MuiDataGrid-rowHeader{
+  width: 600px; 
+}
+.dataTable {
+  background-color: #fff;
+  min-height: 100px !important;
+ border-top-right-radius: 10%;
+
+  & .MuiDataGrid-columnHeaderTitle,
+  .MuiDataGrid-cellContent {
+      font-size: 14px;
+      font-weight: 300;
+  }
+
+  & .MuiDataGrid-columnHeaderTitle {
+      color: #288CBE;
+  }}
